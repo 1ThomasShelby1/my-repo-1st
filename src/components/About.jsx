@@ -1,4 +1,3 @@
-import a from "../assets/🍱 Bento.png";
 
 const Compo3 = () => {
   return (
@@ -57,7 +56,7 @@ const Compo3 = () => {
         <div className="mt-10 space-y-2 font-poppins">
           <div className="flex flex-wrap items-center">
             <img
-              src="../src/assets/Vector.png"
+              src="/Vector.png"
               alt="Vector"
               className="w-4 h-4 mr-2 mt-1"
             />
@@ -74,7 +73,7 @@ const Compo3 = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src={a}
+          src='/🍱 Bento.png'
           alt="Bento"
           className="w-[90%] md:w-full max-w-[500px] h-auto object-contain"
         />

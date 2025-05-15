@@ -1,4 +1,5 @@
 import React from 'react';
+import C from '/C-4.png';
 
 const Compo4 = () => {
   return (
@@ -25,7 +26,7 @@ const Compo4 = () => {
           {/* Card 1 */}
           <div className="bg-white rounded-md p-4 flex flex-col items-center min-w-0">
             <img
-              src="../src/assets/C-4/C-4.png"
+              src={C}
               alt="Hair Cut & Styling"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />
@@ -40,7 +41,7 @@ const Compo4 = () => {
           {/* Card 2 */}
           <div className="bg-white rounded-md p-4 flex flex-col items-center min-w-0">
             <img
-              src="../src/assets/C-4/C-4 (2).png"
+              src="/C-4 (2).png"
               alt="Nail Care"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />
@@ -55,7 +56,7 @@ const Compo4 = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-md p-4 flex flex-col items-center min-w-0">
             <img
-              src="../src/assets/C-4/C-4 (3).png"
+              src="/C-4 (3).png"
               alt="Body Spa"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />
@@ -70,7 +71,7 @@ const Compo4 = () => {
           {/* Card 4 */}
           <div className="bg-white rounded-md p-4 flex flex-col items-center min-w-1/3">
             <img
-              src="../src/assets/C-4/C-4 (8).png"
+              src="/C-4 (8).png"
               alt="Facial & Skin care"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />
@@ -85,7 +86,7 @@ const Compo4 = () => {
           {/* Card 5 */}
           <div className="bg-white rounded-md p-4 flex flex-col items-center min-w-0">
             <img
-              src="../src/assets/C-4/C-4 (7).png"
+              src="/C-4 (7).png"
               alt="Hair Color"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />
@@ -100,7 +101,7 @@ const Compo4 = () => {
           {/* Card 6 */}
           <div className="bg-white rounded-md p-2 flex flex-col items-center min-w-0">
             <img
-              src="../src/assets/C-4/C-4 (6).png"
+              src="/C-4 (6).png"
               alt="Makeup"
               className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
             />

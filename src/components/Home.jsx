@@ -1,4 +1,4 @@
-import threePhones from '../assets/3_imges.png';
+import threePhones from '/3_imges.png';
 
 const Compo1 = () => {
   return (

@@ -15,7 +15,7 @@ const Footer = () => {
       <footer className="text-white px-1 md:px-16 pt-8 text-sm bg-black max-w-screen">
         {/* Logo */}
         <div className="flex justify-center w-[110px] mx-auto mb-6">
-          <img src="../src/assets/footer_logo.png" alt="Footer Logo" />
+          <img src="/footer_logo.png" alt="Footer Logo" />
         </div>
 
 
@@ -24,7 +24,7 @@ const Footer = () => {
         <hr className="border-t border-gray-600 my-6" />
 
         {/* Grid */}
-        <div className="grid gap-8 ml-2">
+        <div className="grid grid-cols-3 gap-8 ml-2 2xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 xs:grid-cols-1 ">
           {/* Reach Us */}
           <div className="font-poppins ">
             <h3 className="mb-4 ">Reach Us</h3>
@@ -61,10 +61,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom Row */}
-        <div className="flex md:flex-row justify-between items-end mt-10 pb-3 ml-4">
-          <div className="font-poppins ">
-            <h3>Quick Links</h3>
-            <div className="flex my-1 space-x-3">
+        <div className="flex md:flex-row justify-between items-end mt-10 pb-3 ml-2">
+          <div className="font-poppins">
+            <h3 className="mb-4">Quick Links</h3>
+            <div className="flex my-2 space-x-3">
             <FaFacebookF className=" cursor-pointer hover:underline"></FaFacebookF>
             <FaInstagram className="cursor-pointer hover:underline"></FaInstagram>
             <FaYoutube className="cursor-pointer hover:underline "></FaYoutube>
@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-sm mr-4">
             <span className="font-varela font-[400]">Develop by</span>
             <img
-              src="../src/assets/tech_surya_logo.png"
+              src="/tech_surya_logo.png"
               alt="Tech Surya"
               className="w-28 object-contain"
             />

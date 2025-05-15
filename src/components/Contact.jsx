@@ -13,7 +13,7 @@ const Compo5 = () => {
           <div className="flex flex-col items-center mb-16 md:mt-0 ">
             <img
               className="w-36 h-16 object-contain"
-              src="..\src\assets\Group 7 (2) 1.png"
+              src="\Group 7 (2) 1.png"
               alt="Logo"
             />
             <p className="mt-4 text-sm font-Montserrat text-center">Beauty, booked effortlessly</p>

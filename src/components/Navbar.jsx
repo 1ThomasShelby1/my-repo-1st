@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../assets/zebra_logo.png';
+import logo from '/zebra_logo.png';
 import { HiOutlineMenu } from 'react-icons/hi'; // Hamburger icon
 import { IoClose } from 'react-icons/io5'; // Close icon
 

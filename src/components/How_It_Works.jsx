@@ -29,7 +29,7 @@ const Compo2 = () => {
                 <h1 className="font-Montserrat">Step 1</h1>
                 <h2 className="text-sm text-slate-600 font-Montserrat">Browse Salons</h2>
                 <img
-                  src="/src/assets/logo_person.png"
+                  src="/logo_person.png"
                   alt="Step 1"
                   className="w-full max-w-[200px] mx-auto"
                 />
@@ -55,7 +55,7 @@ const Compo2 = () => {
                 <h1 className="font-Montserrat">Step 2</h1>
                 <h2 className="text-sm text-slate-600 font-Montserrat">Book in Seconds</h2>
                 <img
-                  src="/src/assets/logo_person2.png"
+                  src="/logo_person2.png"
                   alt="Step 2"
                   className="w-full max-w-[200px] mx-auto"
                 />
@@ -79,7 +79,7 @@ const Compo2 = () => {
                 <h1 className="font-Montserrat">Step 3</h1>
                 <h2 className="text-sm text-slate-600 font-Montserrat">Get Pampered</h2>
                 <img
-                  src="/src/assets/logo_person3.png"
+                  src="/logo_person3.png"
                   alt="Step 3"
                   className="w-full max-w-[200px] mx-auto"
                 />

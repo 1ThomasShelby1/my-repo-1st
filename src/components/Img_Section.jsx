@@ -1,23 +1,36 @@
-import React from 'react';
+import React from 'react'
 
-const VideoBackground = () => {
+const Component = () => {
   return (
-    <div className="relative w-full h-screen lg:h-44 xs:h-32 md:h-60 sm:h-52  xl:h-72 overflow-hidden">
+    <div className="relative h-60 overflow-hidden">
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute z-0 w-auto min-w-full min-h-full max-w-none"
       >
         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+
         Your browser does not support the video tag.
       </video>
-      <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-50">
-        <h1 className="text-white text-4xl md:text-6xl font-segoe">Your Beauty, Your Way—Download Now!</h1>
+      <h1 className="relative z-10 text-white text-center pt-16 font-segoe text-4xl">
+        Your Beauty, Your Way—Download Now!
+      </h1>
+      <div className='flex justify-center'>
+        <li className=''>
+
+        <button className=''>
+          <img className='absolute' src=".\public\Google_Play_Store_badge_EN.svg" alt="" />
+        </button>
+        <button className='-ml-60'>
+          <img className='absolute ' src="\Frame 1000001078.png" alt="" />
+        </button>
+        </li>
       </div>
     </div>
-  );
-};
 
-export default VideoBackground;
+  )
+}
+
+export default Component
