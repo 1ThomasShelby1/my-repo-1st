@@ -8,7 +8,7 @@ const Compo3 = () => {
       {/* Text Section */}
       <div className="w-full md:w-1/2">
         <div>
-          <h2 className="text-2xl md:text-3xl font-montserrat text-black">
+          <h2 className="text-2xl md:text-3xl font-montserrat text-black -mt-2">
             Why Choose
             <span className="px-2 inline-block text-transparent bg-clip-text bg-[linear-gradient(to_bottom_right,rgb(44,62,80),rgb(253,116,108))]">
               Zebra
@@ -26,34 +26,34 @@ const Compo3 = () => {
           with convenience and quality at your fingertips!
         </p>
 
-        <ul className="list-disc pl-5 mt-4 space-y-2 font-segoe text-black/80">
+        <ul className="list-disc pl-5 mt-2 space-y-2 font-segoe text-black/80">
           <li>
             Effortless Booking:
-            <span className="pl-2 text-black/60">
+            <span className="pl-2 text-black/60 text-sm">
               Quick appointment scheduling with top-rated stylists.
             </span>
           </li>
           <li>
             Personalized Experience:
-            <span className="pl-2 text-black/60">
+            <span className="pl-2 text-black/60 text-sm">
               Smart recommendations & exclusive deals.
             </span>
           </li>
           <li>
             Quality & Trust:
-            <span className="pl-2 text-black/60">
+            <span className="pl-2 text-black/60 text-sm">
               Verified professionals, genuine reviews & transparent pricing.
             </span>
           </li>
           <li>
             All-in-One Beauty Hub:
-            <span className="pl-2 text-black/60">
+            <span className="pl-2 text-black/60 text-sm">
               Salon & spa services with seamless support.
             </span>
           </li>
         </ul>
 
-        <div className="mt-10 space-y-2 font-poppins">
+        <div className="mt-6 font-poppins text-sm p-2">
           <div className="flex flex-wrap items-center">
             <img
               src="/Vector.png"
@@ -61,11 +61,11 @@ const Compo3 = () => {
               className="w-4 h-4 mr-2 mt-1"
             />
             <span>Instant Bookings</span>
-            <span className="ml-auto">🌟 Top-Rated Service</span>
+            <span className="ml-14">🌟 Top-Rated Service</span>
+          <div className="flex justify-between text-sm">
+            <span className="whitespace-nowrap mr-10">💸 Exclusive Discounts</span>
+            <span className=" whitespace-nowrap">📍 Nearby Salons</span>
           </div>
-          <div className="flex justify-between">
-            <span>💸 Exclusive Discounts</span>
-            <span>📍 Nearby Salons</span>
           </div>
         </div>
       </div>

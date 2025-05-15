@@ -23,7 +23,7 @@ const Compo2 = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-0 px-4">
           
           {/* Step 1 */}
-          <div className="p-1">
+          <div className="p-1 ">
             <div className="p-[2px] bg-gradient-to-br from-[#2C3E50] to-[#FD746C] rounded-md">
               <div className="bg-white rounded-md p-4 text-center">
                 <h1 className="font-Montserrat">Step 1</h1>
@@ -31,7 +31,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person.png"
                   alt="Step 1"
-                  className="w-full max-w-[200px] mx-auto"
+                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person2.png"
                   alt="Step 2"
-                  className="w-full max-w-[200px] mx-auto"
+                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person3.png"
                   alt="Step 3"
-                  className="w-full max-w-[200px] mx-auto"
+                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
                 />
               </div>
             </div>
