@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 w-full z-50 bg-white overflow-x-hidden">
+    <div className="fixed top-0 left-0 right-0 w-screen z-50 bg-white overflow-x-hidden ">
   <nav className="w-full max-w-screen mx-auto flex items-center justify-between px-2 md:px-12 py-1 md:py-2">
 
         
