@@ -22,13 +22,13 @@ const Compo4 = () => {
       </div>
 
       <div className="px-2 sm:px-6 md:px-12 lg:px-36 py-14 justify-items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
           {/* Card 1 */}
-          <div className="bg-white rounded-md flex flex-col items-center w-[190px] space-y-3">
+          <div className="bg-white rounded-md flex flex-col items-center w-[200px] space-y-3">
             <img
               src={C}
               alt="Hair Cut & Styling"
-              className="w-36 h-36 sm:w-40 sm:h-40 object-contain"
+              className="w-36 h-52 sm:w-50 sm:h-40 object-contain"
             />
             <span className="text-black mt-1 text-base sm:text-lg">
               Hair Cut & Styling
