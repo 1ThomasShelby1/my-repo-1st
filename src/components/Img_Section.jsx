@@ -21,7 +21,7 @@ const Component = () => {
         <li className=''>
 
         <button className=''>
-          <img className='absolute' src=".\public\Google_Play_Store_badge_EN.svg" alt="" />
+          <img className='absolute' src="/Google_Play_Store_badge_EN.svg" alt="" />
         </button>
         <button className='-ml-60'>
           <img className='absolute ' src="\Frame 1000001078.png" alt="" />
