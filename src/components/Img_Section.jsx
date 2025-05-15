@@ -14,17 +14,16 @@ const Component = () => {
 
         Your browser does not support the video tag.
       </video>
-      <h1 className="relative z-10 text-white text-center pt-16 font-segoe text-4xl">
+      <h1 className="relative z-10 text-white text-center pt-16 font-segoe text-4xl xs:text-2xl sm:text-4xl md:text-3xl">
         Your Beauty, Your Way—Download Now!
       </h1>
-      <div className='flex justify-center'>
-        <li className=''>
-
+      <div className='flex justify-center mr-48 pt-4 '>
+        <li className='grid grid-cols-2 gap-60 xs:gap-[180px]'>
         <button className=''>
-          <img className='absolute' src="/Google_Play_Store_badge_EN.svg" alt="" />
+          <img className='absolute ' src="/Google_Play_Store_badge_EN.svg" alt="" />
         </button>
-        <button className='-ml-60'>
-          <img className='absolute ' src="\Frame 1000001078.png" alt="" />
+        <button className=''>
+          <img className='absolute ' src="/Frame 1000001078.png" alt="" />
         </button>
         </li>
       </div>
