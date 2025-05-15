@@ -24,7 +24,7 @@ const Footer = () => {
         <hr className="border-t border-gray-600 my-6" />
 
         {/* Grid */}
-        <div className="grid grid-cols-3 gap-8 ml-2 2xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 xs:grid-cols-1 ">
+        <div className="grid grid-cols-1 gap-8 ml-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3">
           {/* Reach Us */}
           <div className="font-poppins ">
             <h3 className="mb-4 ">Reach Us</h3>
