@@ -21,7 +21,7 @@ const Compo4 = () => {
         </div>
       </div>
 
-      <div className="px-2 sm:px-6 md:px-12 lg:px-36 py-14 ml-20">
+      <div className="px-2 sm:px-6 md:px-12 lg:px-36 py-14 justify-items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <div className="bg-white rounded-md flex flex-col items-center w-[190px] space-y-3">
