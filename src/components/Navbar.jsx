@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Nav Links - Desktop Only */}
         <ul className="hidden md:flex md:flex-row items-center space-x-14 text-lg text-center">
-          {['Home', 'How_It_Works', 'About', 'Contact'].map((item) => (
+          {['Home', 'How It Works', 'About', 'Contact'].map((item) => (
             <li key={item}>
               <Link
                 to={item}
@@ -56,7 +56,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white px-4 pb-4 max-w-screen overflow-hidden">
           <ul className="flex flex-col space-y-4 text-sm font-poppins text-center">
-            {['Home', 'How It Works', 'About', 'Contact'].map((item) => (
+            {['Home', 'How IT Works', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <Link
                   to={item}
@@ -65,7 +65,7 @@ const Navbar = () => {
                   className="cursor-pointer hover:text-red-500"
                   onClick={() => setMenuOpen(false)} // close menu on click
                 >
-                  {item.replace('_', ' ')}
+                  {item.replace('', ' ')}
                 </Link>
               </li>
             ))}
