@@ -56,7 +56,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white px-4 pb-4 max-w-screen overflow-hidden">
           <ul className="flex flex-col space-y-4 text-sm font-poppins text-center">
-            {['Home', 'How_It_Works', 'About', 'Contact'].map((item) => (
+            {['Home', 'How It Works', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <Link
                   to={item}
