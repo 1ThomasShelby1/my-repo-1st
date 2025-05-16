@@ -41,12 +41,12 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger Icon - Mobile Only */}
-        <div className="md:hidden p-2">
+        <div className="md:hidden p-2 flex justify-end items-end  pl-52 ">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
-              <IoClose size={28} className="text-[#2C3E50]" />
+              <IoClose size={28} className="text-[#FD746C]" />
             ) : (
-              <HiOutlineMenu size={28} className="text-[#2C3E50]" />
+              <HiOutlineMenu size={28} className="text-[#FD746C]" />
             )}
           </button>
         </div>
