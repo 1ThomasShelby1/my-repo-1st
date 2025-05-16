@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Row */}
-        <div className="flex md:flex-row justify-end items-end mt-10 pb-3 ml-2">
+        <div className="flex md:flex-row sm:justify-end sm:items-end mt-10 pb-3 ml-2">
           <div className="flex items-center space-x-2 text-sm mr-4">
             <span className="font-varela font-[400]">Developed by</span>
             <img

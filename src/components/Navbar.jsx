@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 w-screen z-50 bg-white overflow-x-hidden ">
+    <div className="fixed top-0 left-0 right-0 w-screen z-50 bg-white overflow-x-hidden pt-2 ">
       <nav className="w-full max-w-screen mx-auto flex items-center justify-around px-2 md:px-12 py-1 md:py-2">
 
 
@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Nav Links - Desktop Only */}
         <ul className="hidden md:flex md:flex-row items-center space-x-14 text-lg text-center">
-          {['Home', 'How It Works', 'About', 'Contact'].map((item) => (
+          {['Home', 'How_It_Works', 'About', 'Contact'].map((item) => (
             <li key={item}>
               <Link
                 to={item}
@@ -56,7 +56,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white px-4 pb-4 max-w-screen overflow-hidden">
           <ul className="flex flex-col space-y-4 text-sm font-poppins text-center">
-            {['Home', 'How IT Works', 'About', 'Contact'].map((item) => (
+            {['Home', 'How_It_Works', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <Link
                   to={item}

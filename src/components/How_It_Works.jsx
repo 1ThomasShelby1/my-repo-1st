@@ -2,7 +2,7 @@ import React from 'react';
 
 const Compo2 = () => {
   return (
-    <div id="How_It_Works">
+    <div id="How_It_Works" className='overflow-x-hidden'>
       {/* Heading */}
       <div className="pt-16 bg-[#F8F9FB] text-center">
         <div className="flex flex-col items-center space-y-2">
@@ -19,8 +19,8 @@ const Compo2 = () => {
       </div>
 
       {/* Steps */}
-      <div className="bg-[#F8F9FB] py-16">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-0 px-4">
+      <div className="bg-[#F8F9FB] py-16 -mr-3 ">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-0 ">
           
           {/* Step 1 */}
           <div className="p-1 ">
@@ -31,7 +31,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person.png"
                   alt="Step 1"
-                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
+                  className="w-full max-w-[250px] mx-auto h-48 sm:h-60"
                 />
               </div>
             </div>
@@ -45,7 +45,7 @@ const Compo2 = () => {
             {/* Vertical for small screens */}
             <div className="block md:hidden w-[2px] h-10 bg-gradient-to-b from-[#2C3E50] to-[#FD746C] mx-auto" />
             {/* Horizontal for medium+ screens */}
-            <div className="hidden md:block h-[2px] w-28 bg-gradient-to-r from-[#2C3E50] to-[#FD746C] mx-auto" />
+            <div className="hidden md:block h-[2px] w-36 bg-gradient-to-r from-[#2C3E50] to-[#FD746C] mx-auto" />
           </div>
 
           {/* Step 2 */}
@@ -57,7 +57,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person2.png"
                   alt="Step 2"
-                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
+                  className="w-full max-w-[250px] mx-auto h-48 sm:h-60"
                 />
               </div>
             </div>
@@ -69,7 +69,7 @@ const Compo2 = () => {
           {/* Divider (Responsive Border) */}
           <div className="my-4 md:my-0 md:mx-4">
             <div className="block md:hidden w-[2px] h-10 bg-gradient-to-b from-[#2C3E50] to-[#FD746C] mx-auto" />
-            <div className="hidden md:block h-[2px] w-28 bg-gradient-to-r from-[#2C3E50] to-[#FD746C] mx-auto" />
+            <div className="hidden md:block h-[2px] w-36 bg-gradient-to-r from-[#2C3E50] to-[#FD746C] mx-auto" />
           </div>
 
           {/* Step 3 */}
@@ -81,7 +81,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person3.png"
                   alt="Step 3"
-                  className="w-full max-w-[200px] mx-auto h-48 sm:h-60"
+                  className="w-full max-w-screen mx-auto h-48 sm:h-60 "
                 />
               </div>
             </div>
