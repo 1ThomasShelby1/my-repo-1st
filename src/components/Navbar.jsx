@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 w-screen z-50 bg-white overflow-x-hidden ">
-  <nav className="w-full max-w-screen mx-auto flex items-center justify-between px-2 md:px-12 py-1 md:py-2">
+      <nav className="w-full max-w-screen mx-auto flex items-center justify-around px-2 md:px-12 py-1 md:py-2">
 
-        
+
         {/* Logo */}
-        <img src={logo} alt="Zebra Logo" className="w-16 md:w-14" />
+        <img src={logo} alt="Zebra Logo" className="w-28" />
 
         {/* Nav Links - Desktop Only */}
         <ul className="hidden md:flex md:flex-row items-center space-x-14 text-lg text-center">
