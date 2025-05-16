@@ -8,7 +8,7 @@ const Compo3 = () => {
       {/* Text Section */}
       <div className="w-full md:w-1/2">
         <div>
-          <h2 className="text-2xl md:text-3xl font-montserrat text-black -mt-2">
+          <h2 className="text-2xl md:text-3xl font-montserrat text-black sm:mt-2">
             Why Choose
             <span className="px-2 inline-block text-transparent bg-clip-text bg-[linear-gradient(to_bottom_right,rgb(44,62,80),rgb(253,116,108))]">
               Zebra
