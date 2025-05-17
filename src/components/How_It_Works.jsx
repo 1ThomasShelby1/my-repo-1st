@@ -81,7 +81,7 @@ const Compo2 = () => {
                 <img
                   src="/logo_person3.png"
                   alt="Step 3"
-                  className="w-full max-w-screen mx-auto h-48 sm:h-60 "
+                  className="w-full max-w-[250px] mx-auto h-48 sm:h-60 "
                 />
               </div>
             </div>

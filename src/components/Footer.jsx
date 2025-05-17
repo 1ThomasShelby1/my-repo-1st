@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <footer className="text-white px-1 md:px-16 pt-8 text-sm bg-black max-w-screen">
+      <footer className="text-white px-1 md:px-28 pt-8 text-sm bg-black max-w-screen">
         {/* Logo */}
         <div className="flex justify-center w-[110px] mx-auto mb-6">
           <img src="/footer_logo.png" alt="Footer Logo" />
