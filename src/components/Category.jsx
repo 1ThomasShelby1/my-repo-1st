@@ -21,8 +21,8 @@ const Compo4 = () => {
         </div>
       </div>
 
-      <div className="px-2 md:px-10 lg:px-3 py-10 justify-items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
+      <div className="justify-items-center py-10 sm:ml-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[108px]">
           {/* Card 1 */}
           <div className="bg-white p-1 rounded-md flex flex-col items-center w-[270px]">
             <img
@@ -39,7 +39,7 @@ const Compo4 = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-md flex flex-col items-center w-[270px]">
+          <div className="bg-white rounded-md flex flex-col items-center w-[270px] ">
             <img
               src="/C-4 (2).png"
               alt="Nail Care"

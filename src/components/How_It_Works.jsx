@@ -19,8 +19,8 @@ const Compo2 = () => {
       </div>
 
       {/* Steps */}
-      <div className="bg-[#F8F9FB] py-16 -mr-3 ">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-0 ">
+      <div className="bg-[#F8F9FB] py-16  md:-mr-4 ">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-1 ">
           
           {/* Step 1 */}
           <div className="p-1 ">

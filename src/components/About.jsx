@@ -3,7 +3,7 @@ const Compo3 = () => {
   return (
     <div
       id="About"
-      className="flex flex-col md:flex-row items-center justify-center my-16 md:my-32 px-4 md:px-24 gap-8 overflow-x-scroll scrollbar-hide"
+      className="flex md:ml-4 flex-col md:flex-row items-center justify-center my-16 md:my-32 px-4 md:px-28 gap-8 overflow-x-scroll scrollbar-hide"
     >
       {/* Text Section */}
       <div className="w-full md:w-1/2">
@@ -17,7 +17,7 @@ const Compo3 = () => {
           </h2>
         </div>
 
-        <p className="py-4 text-black/60 text-base md:text-lg font-segoe">
+        <p className="py-4 text-black/60 text-base md:text-md font-segoe ">
           Zebra Salon App is your go-to beauty companion, making salon bookings
           effortless. With a sleek interface, real-time availability, and
           exclusive deals, it ensures a hassle-free experience. Browse

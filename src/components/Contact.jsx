@@ -2,7 +2,7 @@ import React from 'react';
 
 const Compo5 = () => {
   return (
-    <div id='Contact' className=" max-w-screen min-h-screen flex items-center justify-center bg-[linear-gradient(180deg,#FFFFFF_23.36%,#FD746C_100%)] sm:px-32 py-20 pt-32 xs:pt-16 xs:px-5 p-2 ">
+    <div id='Contact' className=" max-w-screen min-h-screen flex items-center justify-center bg-[linear-gradient(180deg,#FFFFFF_23.36%,#FD746C_100%)] sm:px-32 py-24 xs:px-5 p-2 ">
       <div className="bg-white shadow-xl w-full max-w-6xl rounded-xl flex flex-col md:flex-row overflow-hidden mt-5">
         {/* Left Panel */}
         <div className="md:w-1/2 bg-gradient-to-br from-[#2C3E50] to-[#FD746C] p-8 text-white flex flex-col justify-between m-2 rounded-md">

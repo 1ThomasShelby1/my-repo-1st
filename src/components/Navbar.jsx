@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Nav Links - Desktop Only */}
         <ul className="hidden md:flex md:flex-row items-center space-x-14 text-lg text-center">
-          {['Home', 'How_It_Works', 'About', 'Contact'].map((item) => (
+          {['Home', 'How It Works', 'About', 'Contact'].map((item) => (
             <li key={item}>
               <Link
                 to={item}
